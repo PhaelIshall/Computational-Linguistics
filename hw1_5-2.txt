@@ -1,0 +1,54 @@
+********************************************************************************
+vcluster (CLUTO 2.1.1) Copyright 2001-03, Regents of the University of Minnesota
+
+Matrix Information -----------------------------------------------------------
+  Name: /home1/a/avadag/CIS530/hw1/mi_matfile.txt, #Rows: 2500, #Columns: 1000, #NonZeros: 2500000
+
+Options ----------------------------------------------------------------------
+  CLMethod=RB, CRfun=I2, SimFun=Cosine, #Clusters: 5
+  RowModel=None, ColModel=None, GrModel=SY-DIR, NNbrs=40
+  Colprune=1.00, EdgePrune=-1.00, VtxPrune=-1.00, MinComponent=5
+  CSType=Best, AggloFrom=0, AggloCRFun=I2, NTrials=10, NIter=10
+
+Solution ---------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+5-way clustering: [I2=5.60e+02] [2500 of 2500], Entropy: 0.622, Purity: 0.599
+-----------------------------------------------------------------------------
+cid  Size  ISim  ISdev   ESim  ESdev  Entpy Purty | obje conc meth back resu 
+-----------------------------------------------------------------------------
+  0   180 +0.121 +0.041 +0.023 +0.007 0.192 0.939 |    3    3  169    4    1 
+  1   359 +0.073 +0.022 +0.024 +0.005 0.309 0.875 |    6   31    3    5  314 
+  2   406 +0.047 +0.011 +0.025 +0.006 0.596 0.645 |   15   19  262    6  104 
+  3   986 +0.042 +0.009 +0.024 +0.005 0.788 0.414 |  131  408   20  357   70 
+  4   569 +0.038 +0.010 +0.022 +0.007 0.685 0.606 |  345   39   46  128   11 
+-----------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+5-way clustering solution - Descriptive & Discriminating Features...
+--------------------------------------------------------------------------------
+Cluster   0, Size:   180, ISim: 0.121, ESim: 0.023
+      Descriptive:  even 19.0%, correlation  9.0%, white  8.2%, females  4.6%, over  4.2% 
+   Discriminating:  even 14.7%, correlation  6.7%, white  6.6%, over  3.2%, females  3.0%
+
+Cluster   1, Size:   359, ISim: 0.073, ESim: 0.024
+      Descriptive:  bmi  4.0%, identification  3.8%, operation  3.1%, effects  2.8%, large  2.7% 
+   Discriminating:  bmi  4.0%, parameters  3.8%, identification  3.5%, operation  3.0%, large  2.3%
+
+Cluster   2, Size:   406, ISim: 0.047, ESim: 0.025
+      Descriptive:  primary  4.7%, point  2.5%, immune  1.9%, less  1.9%, magnetic  1.6% 
+   Discriminating:  primary  3.8%, parameters  2.9%, is  2.4%, .001  1.9%, point  1.7%
+
+Cluster   3, Size:   986, ISim: 0.042, ESim: 0.024
+      Descriptive:  is  4.3%, .001  4.2%, growth  3.3%, most  2.4%, therapeutic  2.4% 
+   Discriminating:  .001  4.7%, is  4.0%, growth  2.7%, most  2.7%, therapeutic  2.4%
+
+Cluster   4, Size:   569, ISim: 0.038, ESim: 0.022
+      Descriptive:  parameters 10.6%, presented  7.1%, course  4.3%, contrast  3.7%, resistance  3.3% 
+   Discriminating:  parameters  9.4%, presented  5.0%, contrast  4.1%, eye  3.9%, be  3.3%
+--------------------------------------------------------------------------------
+
+Timing Information -----------------------------------------------------------
+   I/O:                                   0.252 sec
+   Clustering:                            1.708 sec
+   Reporting:                             0.116 sec
+********************************************************************************

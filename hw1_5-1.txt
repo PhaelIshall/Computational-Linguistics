@@ -1,0 +1,55 @@
+********************************************************************************
+vcluster (CLUTO 2.1.1) Copyright 2001-03, Regents of the University of Minnesota
+
+Matrix Information -----------------------------------------------------------
+  Name: /home1/w/wiem//html/matfile.txt, #Rows: 2500, #Columns: 1000, #NonZeros: 2500000
+
+Options ----------------------------------------------------------------------
+  CLMethod=RB, CRfun=I2, SimFun=Cosine, #Clusters: 5
+  RowModel=None, ColModel=None, GrModel=SY-DIR, NNbrs=40
+  Colprune=1.00, EdgePrune=-1.00, VtxPrune=-1.00, MinComponent=5
+  CSType=Best, AggloFrom=0, AggloCRFun=I2, NTrials=10, NIter=10
+
+Solution ---------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+5-way clustering: [I2=6.76e+02] [2500 of 2500], Entropy: 0.725, Purity: 0.501
+-----------------------------------------------------------------------------
+cid  Size  ISim  ISdev   ESim  ESdev  Entpy Purty | obje conc meth back resu
+-----------------------------------------------------------------------------
+  0   218 +0.224 +0.075 +0.054 +0.012 0.344 0.867 |    2   10   12    5  189
+  1   191 +0.131 +0.050 +0.039 +0.014 0.239 0.916 |    6    1  175    7    2
+  2   543 +0.093 +0.032 +0.046 +0.013 0.759 0.418 |   49   28  227   20  219
+  3   551 +0.056 +0.017 +0.037 +0.013 0.752 0.472 |  260   59   15  189   28
+  4   997 +0.044 +0.012 +0.036 +0.012 0.867 0.403 |  183  402   71  279   62
+-----------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+5-way clustering solution - Descriptive & Discriminating Features...
+--------------------------------------------------------------------------------
+Cluster   0, Size:   218, ISim: 0.224, ESim: 0.054
+      Descriptive:  concentration 57.1%, rates  4.3%, frequency  4.3%, adult  2.8%, day  2.5%
+   Discriminating:  concentration 59.3%, kidney  1.8%, and  1.5%, problem  1.0%, t  1.0%
+
+Cluster   1, Size:   191, ISim: 0.131, ESim: 0.039
+      Descriptive:  4 27.4%, reference  7.4%, reported  5.4%, up  4.6%, completed  3.6%
+   Discriminating:  4 26.7%, reference  7.0%, up  4.0%, reported  3.5%, found  3.1%
+
+Cluster   2, Size:   543, ISim: 0.093, ESim: 0.046
+      Descriptive:  rates  9.5%, frequency  9.4%, completed  8.1%, day  5.3%, adult  5.3%
+   Discriminating:  completed  6.8%, concentration  5.4%, activity  5.1%, adult  4.5%, kidney  4.1%
+
+Cluster   3, Size:   551, ISim: 0.056, ESim: 0.037
+      Descriptive:  rates  4.7%, frequency  4.7%, seven  4.6%, kidney  3.1%, and  2.7%
+   Discriminating:  seven  6.6%, concentration  6.1%, completed  4.2%, recurrent  3.0%, adult  2.9%
+
+Cluster   4, Size:   997, ISim: 0.044, ESim: 0.036
+      Descriptive:  success  3.9%, kidney  3.6%, colorectal  3.1%, t  3.0%, and  2.8%
+   Discriminating:  frequency  8.4%, rates  8.4%, concentration  8.3%, completed  5.1%, success  4.7%
+--------------------------------------------------------------------------------
+
+Timing Information -----------------------------------------------------------
+   I/O:                                   0.268 sec
+   Clustering:                            1.716 sec
+   Reporting:                             0.116 sec
+********************************************************************************
+~                                                                                                                                                                                    

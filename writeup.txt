@@ -1,0 +1,17 @@
+Python 3
+Wiem Ben Rim, wiem
+Ava Dagostino, avadag
+Precision: 0.058
+Recall: 0.058
+TF-IDF:
+Cluster 0 contains 86.67 % results
+Cluster 1 contains 91.62 % methods
+Cluster 2 contains 41.81 % methods
+Cluster 3 contains 41.19 % objective
+Cluster 4 contains 40.32 % conclusion
+MI:
+Cluster 0 contains 93.89 % methods
+Cluster 1 contains 87.47 % results
+Cluster 2 contains 64.53 % methods
+Cluster 3 contains 41.83 % conclusions
+Cluster 4 contains 60.63 % objective
