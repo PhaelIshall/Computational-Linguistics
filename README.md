@@ -19,6 +19,7 @@ get_all_files(directory)
 ```
 ```python
 standardize(rawexcerpt)
+```
 ```python
 load_file_excerpts(filepath)
 ```
