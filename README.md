@@ -39,6 +39,17 @@ This function simply return a flattened list. It takes a list of lists and it re
 
 ##TF-IDF
 
+In information retrieval, tf–idf, short for term frequency–inverse document frequency, is a numerical statistic that is intended to reflect how important a word is to a document in a collection or corpus. It is often used as a weighting factor in information retrieval, text mining, and user modeling. The tf-idf value increases proportionally to the number of times a word appears in the document, but is offset by the frequency of the word in the corpus, which helps to adjust for the fact that some words appear more frequently in general. Nowadays, tf-idf is one of the most popular term-weighting schemes. For instance, 83% of text-based recommender systems in the domain of digital libraries use tf-idf.
+
+I implemented several helper functions but the main one used is the following, which writes to a new file **"hw1_2-1a.txt"**. I ran this on **sample = "Background.txt", corpus is the set of all five files, k =1000** 
+```python
+get tfidf topk(sample, corpus, k)
+```
+**"hw1_2-1a.txt"** will contain the highest weighted words in the sample, along with their corresponsing TF-IDF values. 
+Essentially for each word we have used the following formula: 
+
+* IDF (w) = ln(N/DF (w)) where **DF as the count of excerpts in the corpus that contain the word.** and **N to denote the total number of excerpts in the corpus**
+* **TF is the raw count of w within in the sample.**
 
 Accuracy of labeling:
 ![Alt text](/s1.png?raw=true "Screenshot1")
