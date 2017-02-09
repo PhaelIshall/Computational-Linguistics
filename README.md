@@ -6,11 +6,11 @@ Implementation of different methods for weighing the importance of words for sim
 ##Pre-Processing:
 
 We started by taking a training set of five files taken from the web. These files each represent  section or a topic that we will later on use to categorize new data sets. The files we used are:<return>
-*Item 1: Background.txt
-*Item 2: Conclusion.txt
-*Results.txt
-*Methods.txt
-*Objective.txt
+  *Background.txt
+  *Conclusion.txt
+  *Results.txt
+  *Methods.txt
+  *Objective.txt
 
 **In this program, an excerpt is a sentence and a token is a word.**<return>
 The first five functions we implemented are concerned with pre-processing, they are the following:
