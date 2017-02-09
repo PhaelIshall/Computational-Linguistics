@@ -12,24 +12,29 @@ We started by taking a training set of five files taken from the web. These file
 *Methods.txt
 *Objective.txt
 
+**In this program, an excerpt is a sentence and a token is a word.**
 The first five functions we implemented are concerned with pre-processing, they are the following:
 
 ```python
 get_all_files(directory)
 ```
+Returns a list of all the file names in a directory.
 ```python
 standardize(rawexcerpt)
 ```
+Tokenizes excerpts and converts them to lowercase.
 ```python
 load_file_excerpts(filepath)
 ```
+Loads all the excerpts within a directory. **An excerpt is a sentence in our case.** So this returns a list of sentences, and each sentence is a list of tokens, which are in turn, words. 
 ```python
 load_directory_excerpts(dirpath)
 ```
+This calls the function before it on all the files within a directory.
 ```python
 flatten(listoflists)
 ```
-
+This function simply return a flattened list. It takes a list of lists and it returns a simple list.
 
 
 Accuracy of labeling:
