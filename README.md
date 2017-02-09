@@ -72,7 +72,7 @@ We used several helper functions but the idea is summarized in the following ste
 * Vectorize our excerpt (testing data) in terms of the vocabulary
 * Compute cosine similarity between each section vector and the excerpt vector and take the closest one.
 
-We tested the accuracy of the output against excepts that were already classified and we obtain the following result.
+I tested the accuracy of the output against excepts that were already classified and I obtain the following result.
 
 Accuracy of labeling:
 ![Alt text](/s1.png?raw=true "Screenshot1")
