@@ -51,5 +51,28 @@ Essentially for each word we have used the following formula:
 * IDF (w) = ln(N/DF (w)) where **DF as the count of excerpts in the corpus that contain the word.** and **N to denote the total number of excerpts in the corpus**
 * **TF is the raw count of w within in the sample.**
 
+##Mutual Information
+
+##Evaluation metric
+We used precision and recall to evaluate our algorithms. That is present in the followng two functions: 
+
+* get precision()
+* get recall() 
+
+##Labeling new excerpts
+
+The main function implemented here is the one bellow. Essentialy it takes a file of excerpts *(each line is an excerpt)* and it outputs *for each line* the corresponding label; meaning the section that it can be classified as. 
+```python
+label sents(excerptfile, outputfile)
+```
+We used several helper functions but the idea is summarized in the following steps:
+
+* Obtain our vocabulary of words which is the most important words in the entire corpus based on their tf-idf values (we ran  get tf_idf_topk(corpus, corpus, 1000)
+* Make the vocanulary into a vector and obtain the values of each of the five files we have in function of this vector.
+* Vectorize our excerpt (testing data) in terms of the vocabulary
+* Compute cosine similarity between each section vector and the excerpt vector and take the closest one.
+
+We tested the accuracy of the output against excepts that were already classified and we obtain the following result.
+
 Accuracy of labeling:
 ![Alt text](/s1.png?raw=true "Screenshot1")
