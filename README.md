@@ -37,6 +37,8 @@ flatten(listoflists)
 ```
 This function simply return a flattened list. It takes a list of lists and it returns a simple list.
 
+##TF-IDF
+
 
 Accuracy of labeling:
 ![Alt text](/s1.png?raw=true "Screenshot1")
