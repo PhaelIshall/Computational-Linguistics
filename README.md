@@ -52,6 +52,14 @@ Essentially for each word we have used the following formula:
 * **TF is the raw count of w within in the sample.**
 
 ##Mutual Information
+```python
+get mi topk(sample, corpus, k
+```
+It takes a sample of text and a larger corpus as input, and outputs a list of (word, weight ) tuples having the highest MI weight in the sample with respect to the corpus in descending weight order. 
+My partner then computed p(w) for each token based on the corpus using:
+
+* p(w) = count(w)/sum(count(wj)) 
+* MI(sample(i), w) = ln (p(w|sample(i))/p(w))
 
 ##Evaluation metric
 We used precision and recall to evaluate our algorithms. That is present in the followng two functions: 
