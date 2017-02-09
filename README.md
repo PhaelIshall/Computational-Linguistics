@@ -8,7 +8,9 @@ Implementation of different methods for weighing the importance of words for sim
 We started by taking a training set of five files taken from the web. These files each represent  section or a topic that we will later on use to categorize new data sets. The files we used are:
 
   *Background.txt
+  
   *Conclusion.txt
+  
   *Results.txt
   *Methods.txt
   *Objective.txt
