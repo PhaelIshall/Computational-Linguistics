@@ -16,11 +16,19 @@ The first five functions we implemented are concerned with pre-processing, they 
 
 ```python
 get_all_files(directory)
-standardize(rawexcerpt)
-load_file_excerpts(filepath):
-load_directory_excerpts(dirpath)
-flatten(listoflists):
 ```
+```python
+standardize(rawexcerpt)
+```python
+load_file_excerpts(filepath)
+```
+```python
+load_directory_excerpts(dirpath)
+```
+```python
+flatten(listoflists)
+```
+
 
 
 Accuracy of labeling:
